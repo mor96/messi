@@ -134,7 +134,7 @@ main {
 
 /* the styles for the section */
 section {
-	width: 70%;
+	width: 100%;
 	float: right;
 	padding: 0 2.5% 20px 2.5%;
 }
