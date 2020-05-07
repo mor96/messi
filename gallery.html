@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This sentence will appear under the link in search engine results.">
+	<meta name="keywords" content="list,of,words,separated,by,commas,that,describe,your,site">
+	<meta name="author" content="Your name goes here">
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- shiv which should be a shim -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- tab title -->
+	<title>[Page Title Which Appears in the Tab]</title>
+
+	<!-- favicon link -->
+	<link rel="shortcut icon" href="images/messi.ico">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/galerry.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+    <!-- slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>   <!-- Link to jQuery Content Delivery Network - Necessary for SlickNav to work correctly -->
+    <script src="js/jquery.slicknav.min.js"></script>                     <!-- Link to the slicknav file inside the js folder - Necessary for SlickNav to work correctly -->
+
+	<!-- slicknav javascript - this javascript code will use the UL inside the nav_menu tag to build the same menu in slickNav format -->
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+    </script>
+
+</head>
+
+
+
+<body>
+
+	<header>
+
+		<img class="clearfix" src="images/messi.png">
+
+		<h2>Lionel Messi</h2>
+
+		<h3><span class="shadow">THE GOAT</span></h3>
+
+	</header>
+
+
+    <nav id="mobilemenu"></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="gallery.html" class="current">Gallery</a></li>
+			<li><a href="videos.html" class="current">Videos</a>	</li>
+        	<li><a href="index.html" class="current">Contact</a></li>
+    	</ul>
+	</nav>
+
+
+	<main>
+
+		<h1>Lionel MESSI</h1>
+
+		<section>
+           
+              
+              <!-- Photo Grid -->
+              <div class="row"> 
+                <div class="column">
+                  <img src="images/1.jpeg" style="width:100%">
+                  <img src="images/2.jpeg" style="width:100%">
+                  <img src="images/10.jpeg" style="width:100%">
+                  <img src="images/3.jpeg" style="width:100%"> 
+                  <img src="images/19.jpeg" style="width:100%">
+                  <img src="images/5.jpeg" style="width:100%">
+                </div>
+                
+                <div class="column">
+                  <img src="images/8.jpeg" style="width:100%">
+                  <img src="images/9.jpeg" style="width:100%">
+                  <img src="images/24.jpeg" style="width:100%">
+                  <img src="images/22.jpeg" style="width:100%">
+                  <img src="images/25.jpeg" style="width:100%">
+                  <img src="images/12.jpeg" style="width:100%"> 
+                </div> 
+              
+                <div class="column">
+                  <img src="images/14.jpeg" style="width:100%">
+                  <img src="images/6.jpeg" style="width:100%">
+                  <img src="images/23.jpeg" style="width:100%">
+                  <img src="images/16.jpeg" style="width:100%">
+                  <img src="images/17.jpeg" style="width:100%">
+                  <img src="images/18.jpeg" style="width:100%"> 
+                  </div> 
+              
+                  <div class="column">
+                    <img src="images/20.jpeg" style="width:100%">
+                    <img src="images/21.jpeg" style="width:100%">
+                    <img src="images/7.jpeg" style="width:100%">
+                    <img src="images/13.jpeg" style="width:100%">
+                    <img src="images/4.jpeg" style="width:100%">
+                    <img src="images/15.jpeg" style="width:100%">
+                    </div> 
+
+              </div>    
+              
+			
+
+		</section>
+
+
+		<div id="bottombuffer"><br><br></div>
+
+	</main>
+
+
+	<footer>
+
+		<p>&copy; 2020 Your Company Name here</p>
+
+	</footer>
+
+</body>
+
+</html>
