@@ -49,8 +49,9 @@ header {
 	margin: 0;
 
 }
+
 header img {
-	padding: 0 1em 0 0;
+	padding: 0 2.7em 0 0;
 	float: left;
 	max-width: 200px;
 	width: 100%;
@@ -58,9 +59,14 @@ header img {
 }
 header h2 {
 	padding: 2em 0 .25em 0;
+	text-shadow: skyblue ;
+	color: tomato;
 }
 header h3 {
 	padding: .5em 0 .25em 0;
+	text-shadow: skyblue;
+	color: tomato;
+	
 }
 
 
@@ -242,6 +248,21 @@ footer p {
 @media only screen and (max-width: 479px) {
 	body { font-size: 90%; }
 }
+@media only screen and (max-width: 850px) {
+	
+	/* image gallery - drop down from 4 columns to 3 columns */
+	.column {
+		flex: 33.3%;
+		max-width: 33.3%;
+	}
+	.pimgLeft img, .pimgRight img {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	
+}
+
 
 /****************************************************************************************************************
 *****************************************************************************************************************
