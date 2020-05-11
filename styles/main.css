@@ -45,7 +45,7 @@ a:focus, a:hover {
 
 /* the styles for the header */
 header {
-	background-image: url("../images/lionel.jpeg");
+	background-image: url(../images/lionel.jpeg);
 	width: 100%;
 	margin: 0;
 
@@ -56,7 +56,9 @@ header img {
 	max-width: 200px;
 	width: 100%;
 	
+	
 }
+
 header h2 {
 	padding: 2em 0 .25em 0;
 	text-shadow: skyblue ;
@@ -97,12 +99,12 @@ header h3 {
 	text-decoration: none;
 	font-variant: small-caps;
 	font-size: 120%;
-	background-color: rgb(56, 137, 204);
-	color: rgb(167, 2, 2);
+	background-color: black;
+	color: white;
 	font-weight: bold;
 }
 #nav_menu a:hover {
-	background-color: #00FF00;
+	background-color: rgba(0, 247, 255, 0.466);
 	color: black;
 }
 #nav_menu ul ul {
@@ -148,7 +150,10 @@ section p {
 	font: 110%;
 	line-height: 2;
 }
-
+section img {
+	size: 400%;
+	width: 100%;
+}
 
 
 /* the styles for the aside */

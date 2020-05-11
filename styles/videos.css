@@ -104,12 +104,12 @@ header h3 {
 	text-decoration: none;
 	font-variant: small-caps;
 	font-size: 120%;
-	background-color: #228B22;
+	background-color: black;
 	color: white;
 	font-weight: bold;
 }
 #nav_menu a:hover {
-	background-color: #00FF00;
+	background-color: rgba(0, 247, 255, 0.466);
 	color: black;
 }
 #nav_menu ul ul {
